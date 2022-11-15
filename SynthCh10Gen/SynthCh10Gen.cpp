@@ -45,6 +45,10 @@ increases at the defined tick rate.
 #pragma comment(lib,"ws2_32.lib") //Winsock Library
 #endif
 
+#ifdef LINUX_BUILD
+#include <cstring>
+#endif
+
 #include "config.h"
 #include "i106_stdint.h"
 #include "irig106ch10.h"

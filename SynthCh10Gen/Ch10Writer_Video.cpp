@@ -1,5 +1,8 @@
 
+#ifndef LINUX_BUILD
 #include <io.h>
+#endif
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,6 +14,10 @@
 #include <string>
 #include <iostream>     // std::cout
 #include <sstream>      // std::stringstream
+
+#ifdef LINUX_BUILD
+#include <cstring>
+#endif
 
 #include "irig106ch10.h"
 

@@ -41,7 +41,7 @@ public:
     void Init(int iHandle, unsigned int uChanID);
     void AppendNodeIndex(SuI106Ch10Header * psuHeader);
     void WriteNodePacket();
-    void AppendRootIndex(SuIndex_Time * psuNodeIndexTime, __int64 llNodeIndexOffset);
+    void AppendRootIndex(SuIndex_Time * psuNodeIndexTime, int64_t llNodeIndexOffset);
     void WriteRootPacket();
 
     };
