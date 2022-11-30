@@ -1,0 +1,33 @@
+---
+type: parsed_MILSTD1553_F1
+uid: 843fd77c0f5d38117d1da870fee118a71156c0955d3396be37b918faa3dfee1a
+provenance:
+  time: 2022-11-21 21:54:16
+  version: 3fc06c44
+  resource:
+    - type: CH10
+      path: Ch10/652200111111735.ch10
+      uid: e059b7142cd95d8ad28be2002b348e40722938878a5d499f1235f610c4b2f48b
+config:
+  ch10_packet_type:
+    ARINC429_F0: true
+    ETHERNET_DATA_F0: true
+    MILSTD1553_F1: true
+    VIDEO_DATA_F0: true
+  parse_chunk_bytes: 200
+  parse_thread_count: 1
+  max_chunk_read_count: 1000
+  worker_offset_wait_ms: 200
+  worker_shift_wait_ms: 200
+  stdout_log_level: info
+runtime:
+  chanid_to_lru_addrs:
+    30: [6]
+  chanid_to_comm_words:
+    30:
+      - [14240, 0]
+  tmats_chanid_to_source:
+    30: 1553-Nav
+  tmats_chanid_to_type:
+    30: 1553IN
+...

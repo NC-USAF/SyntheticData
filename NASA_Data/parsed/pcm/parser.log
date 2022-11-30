@@ -1,0 +1,147 @@
+[11/30/22 06:34:14 D] [/home/nathan/il2_projects/tip/cpp/util/src/binbuff.cpp:44] max read size (183072296) < requested read count (200000000)
+[11/30/22 06:34:14 I] [/home/nathan/il2_projects/tip/cpp/parse_ch10/src/parse_worker.cpp:16] (00) ParseWorker now active
+[11/30/22 06:34:14 D] [/home/nathan/il2_projects/tip/cpp/parse_ch10/src/parse_worker.cpp:18] (00) Beginning of shift, absolute position: 0
+[11/30/22 06:34:14 D] [/home/nathan/il2_projects/tip/cpp/ch10_components/src/ch10_context.cpp:451] (00) Enabling writer for MILSTD1553_F1
+[11/30/22 06:34:14 D] [/home/nathan/il2_projects/tip/cpp/ch10_components/src/ch10_context.cpp:451] (00) Enabling writer for ARINC429_F0
+[11/30/22 06:34:14 D] [/home/nathan/il2_projects/tip/cpp/ch10_components/src/ch10_context.cpp:451] (00) Enabling writer for VIDEO_DATA_F0
+[11/30/22 06:34:15 D] [/home/nathan/il2_projects/tip/cpp/ch10_components/src/ch10_context.cpp:451] (00) Enabling writer for ETHERNET_DATA_F0
+[11/30/22 06:34:15 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/include/parquet_context.h:953] setting field info for dstmac
+[11/30/22 06:34:15 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/include/parquet_context.h:953] setting field info for srcmac
+[11/30/22 06:34:15 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/include/parquet_context.h:953] setting field info for dstip
+[11/30/22 06:34:15 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/include/parquet_context.h:953] setting field info for srcip
+[11/30/22 06:34:15 D] [/home/nathan/il2_projects/tip/cpp/ch10_components/src/ch10_context.cpp:164] (00) TMATS found
+[11/30/22 06:34:15 D] [/home/nathan/il2_projects/tip/cpp/ch10_components/src/ch10_context.cpp:169] (00) TDP found
+[11/30/22 06:34:15 W] [/home/nathan/il2_projects/tip/cpp/ch10_components/src/ch10_packet.cpp:327] (00) No parser exists for PCM_F1
+[11/30/22 06:34:15 W] [/home/nathan/il2_projects/tip/cpp/ch10_components/src/ch10_packet.cpp:327] (00) No parser exists for COMPUTER_GENERATED_DATA_F3
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:15 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:16 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:17 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:18 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:19 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:19 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:19 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:19 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:19 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:19 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:19 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:19 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:19 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:20 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:20 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:20 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) MilStd1553F1: Writing 100000 rows
+[11/30/22 06:34:21 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:21 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:21 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:21 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:21 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:21 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:21 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:21 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:22 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:23 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:24 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) ARINC429F0: Writing 100000 rows
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/util/src/binbuff.cpp:93] pos (183072236) + count (60) > 183072295
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/parse_ch10/src/parse_worker.cpp:43] (00) Closing file writers
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:80] (00) EthernetF0, Empty file: Zero rows written
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:85] (00) EthernetF0, Automatic deletion enabled, deleting /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_ETHERNET_DATA_F0.parquet/000.parquet
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:934] (00) ARINC429F0, Writing 7200 rows
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:939] (00) ARINC429F0, 1 row groups
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:945] (00) ARINC429F0, WriteColumns(count = 7200, offset = 0)
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:80] (00) VideoDataF0, Empty file: Zero rows written
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:85] (00) VideoDataF0, Automatic deletion enabled, deleting /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_VIDEO_DATA_F0.parquet/000.parquet
+[11/30/22 06:34:25 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:934] (00) MilStd1553F1, Writing 78700 rows
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:939] (00) MilStd1553F1, 8 row groups
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:959] (00) MilStd1553F1, WriteColumns(count = 10000, offset = 0)
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:959] (00) MilStd1553F1, WriteColumns(count = 10000, offset = 10000)
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:959] (00) MilStd1553F1, WriteColumns(count = 10000, offset = 20000)
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:959] (00) MilStd1553F1, WriteColumns(count = 10000, offset = 30000)
+[11/30/22 06:34:25 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:959] (00) MilStd1553F1, WriteColumns(count = 10000, offset = 40000)
+[11/30/22 06:34:26 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:959] (00) MilStd1553F1, WriteColumns(count = 10000, offset = 50000)
+[11/30/22 06:34:26 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:959] (00) MilStd1553F1, WriteColumns(count = 10000, offset = 60000)
+[11/30/22 06:34:26 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:945] (00) MilStd1553F1, WriteColumns(count = 8700, offset = 70000)
+[11/30/22 06:34:26 I] [/home/nathan/il2_projects/tip/cpp/parse_ch10/src/parse_worker.cpp:47] (00) End of worker's shift
+[11/30/22 06:34:26 D] [/home/nathan/il2_projects/tip/cpp/parse_ch10/src/parse_worker.cpp:48] (00) End of shift, absolute position: 183072236
+[11/30/22 06:34:26 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) TIME_DATA_F1: Writing 1000 rows
+[11/30/22 06:34:26 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) TIME_DATA_F1: Writing 1000 rows
+[11/30/22 06:34:26 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) TIME_DATA_F1: Writing 1000 rows
+[11/30/22 06:34:26 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) TIME_DATA_F1: Writing 1000 rows
+[11/30/22 06:34:26 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) TIME_DATA_F1: Writing 1000 rows
+[11/30/22 06:34:26 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) TIME_DATA_F1: Writing 1000 rows
+[11/30/22 06:34:26 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:861] (00) TIME_DATA_F1: Writing 1000 rows
+[11/30/22 06:34:26 I] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:934] (00) TIME_DATA_F1, Writing 149 rows
+[11/30/22 06:34:26 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:945] (00) TIME_DATA_F1, WriteColumns(count = 149, offset = 0)
+[11/30/22 06:34:26 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:939] (00) TIME_DATA_F1, 1 row groups

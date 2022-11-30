@@ -1,0 +1,45 @@
+---
+type: translated_MILSTD1553_F1
+uid: bb1900b6d9403a6fbfff16cb8c07591ba1a492e6cb30e11cc859dca9908f29f8
+provenance:
+  time: 2022-11-30 13:38:04
+  version: 3fc06c44
+  resource:
+    - type: DTS_MILSTD1553_F1
+      path: ICD_Files/TIP/DTS1553_Synth_Nasa.yaml
+      uid: 8a64cd5de06fc0a349a5f90a64848338dba7c4212141be09f3018d541d3eb9c9
+    - type: parsed_MILSTD1553_F1
+      path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/master/652200111111735_MILSTD1553_F1.parquet
+      uid: c76b1939fd47f72cc88a24051961ee7bbccd7ebed9831cc33cf154c77e9b59b2
+    - type: CH10
+      path: Ch10/652200111111735.ch10
+      uid: ae5df6768ce8d70afa6030da8c626b6778a0a145a80b84b7f9f7a328d6ee3d32
+config:
+  translate_thread_count: 1
+  use_tmats_busmap: false
+  tmats_busname_corrections:
+    {}
+  prompt_user: false
+  vote_threshold: 1
+  vote_method_checks_tmats: false
+  bus_name_exclusions: []
+  stop_after_bus_map: false
+  select_specific_messages: []
+  exit_after_table_creation: false
+  auto_sys_limits: true
+  stdout_log_level: info
+runtime:
+  chanid_to_bus_name:
+    30: 1553InChan30
+  chanid_to_bus_map_source:
+    30: Vote Method
+  excluded_channel_id_reasons:
+    {}
+  channel_id_votes:
+    30: {1553InChan30: 1}
+  translated_messages: [NAV]
+  uri_percent_encoded_message_names:
+    {}
+  uri_percent_encoded_element_names:
+    {}
+...

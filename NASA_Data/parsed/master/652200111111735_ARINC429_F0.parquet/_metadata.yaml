@@ -1,0 +1,48 @@
+---
+type: parsed_ARINC429_F0
+uid: 6b498dd11a812e1a1368a760b4f5dd2f0121458aa6f11b1a54912f5d6abb8270
+provenance:
+  time: 2022-11-30 13:33:06
+  version: 3fc06c44
+  resource:
+    - type: CH10
+      path: Ch10/652200111111735.ch10
+      uid: ae5df6768ce8d70afa6030da8c626b6778a0a145a80b84b7f9f7a328d6ee3d32
+config:
+  ch10_packet_type:
+    ARINC429_F0: true
+    ETHERNET_DATA_F0: true
+    MILSTD1553_F1: true
+    VIDEO_DATA_F0: true
+  parse_chunk_bytes: 200
+  parse_thread_count: 1
+  max_chunk_read_count: 1000
+  worker_offset_wait_ms: 200
+  worker_shift_wait_ms: 200
+  stdout_log_level: info
+runtime:
+  chanid_to_labels:
+    40: [36, 68, 100, 132, 164, 196, 228]
+    41: [36, 68, 100, 132, 164, 196, 228]
+  chanid_to_bus_numbers:
+    40: [0]
+    41: [0]
+  chanid_to_bus_numbers_to_labels:
+    40: {0: [36, 68, 100, 132, 164, 196, 228]}
+    41: {0: [36, 68, 100, 132, 164, 196, 228]}
+  tmats_chanid_to_429_format:
+    40: 0
+    41: 0
+  tmats_chanid_to_429_subchans:
+    40: [1]
+    41: [1]
+  tmats_chanid_to_429_subchan_and_name:
+    40: {1: A429-Engine1-SubChan1}
+    41: {1: A429-Engine2-SubChan1}
+  tmats_chanid_to_source:
+    40: A429-Engine1
+    41: A429-Engine2
+  tmats_chanid_to_type:
+    40: 429IN
+    41: 429IN
+...

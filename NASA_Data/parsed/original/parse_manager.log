@@ -1,0 +1,326 @@
+[11/15/22 15:49:48 I] tip_parse version: 3fc06c44
+[11/15/22 15:49:48 I] Ch10 file path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/Ch10/652200111111735.ch10
+[11/15/22 15:49:48 I] Output path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed
+[11/15/22 15:49:48 I] Log directory: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed
+[11/15/22 15:49:48 I] Ch10 file size: 183.069660 MB
+[11/15/22 15:49:48 I] AllocateResources: chunk size 200000000 bytes
+[11/15/22 15:49:48 I] AllocateResources: using 1 threads
+[11/15/22 15:49:48 I] AllocateResources: creating 1 workers
+[11/15/22 15:49:48 I] TMATS output path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_COMPUTER_GENERATED_DATA_F1.txt
+[11/15/22 15:49:48 I] Time data output path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_TIME_DATA_F1.parquet
+[11/15/22 15:49:48 I] CreateCh10PacketOutputDirs: Create MILSTD1553_F1 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_MILSTD1553_F1.parquet
+[11/15/22 15:49:48 I] CreateCh10PacketOutputDirs: Create ARINC429_F0 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_ARINC429_F0.parquet
+[11/15/22 15:49:48 I] CreateCh10PacketOutputDirs: Create VIDEO_DATA_F0 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_VIDEO_DATA_F0.parquet
+[11/15/22 15:49:48 I] CreateCh10PacketOutputDirs: Create ETHERNET_DATA_F0 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_ETHERNET_DATA_F0.parquet
+[11/15/22 15:49:51 I] Ch10 hash: 15a9935faf0f3b564cf29cebf389023d13dbf1e2bb3be3c4f12c8fe6c5033f04
+[11/15/22 15:49:51 I] Ch10 packet configuration:
+[11/15/22 15:49:51 I]  ARINC429_F0:	true
+[11/15/22 15:49:51 I]  ETHERNET_DATA_F0:	true
+[11/15/22 15:49:51 I]  MILSTD1553_F1:	true
+[11/15/22 15:49:51 I]  VIDEO_DATA_F0:	true
+[11/15/22 15:49:51 D] Opening ch10 file path: Ch10/652200111111735.ch10
+[11/15/22 15:49:51 D] Parse: begin parsing with workers
+[11/15/22 15:49:51 D] StartThreads: Starting worker threads
+[11/15/22 15:49:51 D] ActivateInitialThread: All threads NOT ACTIVE (0 active)
+[11/15/22 15:49:51 D] ConfigureWorker 0: start = 0, read size = 200000000
+[11/15/22 15:49:51 D] ConfigureWorker: worker 0 actual read size (183069660) not equal to requested read size (200000000)
+[11/15/22 15:49:51 D] ConfigureWorker: Last worker reached EOF OK
+[11/15/22 15:49:51 D] Parse: end parsing with workers
+[11/15/22 15:49:51 D] StopThreads: Joining all remaining workers
+[11/15/22 15:49:51 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:51 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:52 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:52 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:52 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:52 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:52 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:52 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:52 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:52 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:52 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:52 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:53 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:53 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:53 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:53 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:53 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:53 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:53 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:53 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:53 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:53 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:54 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:54 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:54 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:54 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:54 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:54 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:54 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:54 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:54 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:54 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:55 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:55 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:55 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:55 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:55 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:55 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:55 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:55 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:55 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:55 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:56 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:56 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:56 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:56 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:56 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:56 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:56 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:56 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:56 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:56 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:57 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:57 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:57 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:57 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:57 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:57 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:57 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:57 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:57 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:57 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:58 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:58 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:58 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:58 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:58 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:58 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:58 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:58 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:58 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:58 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:59 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:59 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:59 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:59 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:59 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:59 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:59 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:59 D] StopThreads: waiting for workers to complete
+[11/15/22 15:49:59 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:49:59 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:00 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:00 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:00 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:00 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:00 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:00 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:00 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:00 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:00 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:00 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:01 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:01 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:01 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:01 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:01 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:01 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:01 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:01 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:01 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:01 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:02 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:02 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:02 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:02 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:02 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:02 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:02 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:02 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:02 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:02 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:03 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:03 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:03 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:03 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:03 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:03 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:03 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:03 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:03 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:03 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:04 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:04 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:04 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:04 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:04 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:04 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:04 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:04 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:04 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:04 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:05 D] StopThreads: worker 0 STILL ACTIVE
+[11/15/22 15:50:05 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:05 D] StopThreads: worker 0 INACTIVE/COMPLETE -- joining now
+[11/15/22 15:50:05 D] StopThreads: worker 0 joined
+[11/15/22 15:50:05 D] StopThreads: waiting for workers to complete
+[11/15/22 15:50:05 D] StopThreads: all workers joined
+[11/15/22 15:50:05 I] Parsed packet types:
+[11/15/22 15:50:05 I]  - COMPUTER_GENERATED_DATA_F1
+[11/15/22 15:50:05 I]  - TIME_DATA_F1
+[11/15/22 15:50:05 I]  - MILSTD1553_F1
+[11/15/22 15:50:05 I]  - ARINC429_F0
+[11/15/22 15:50:05 I] ProcessTMATS: writing TMATS to /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_COMPUTER_GENERATED_DATA_F1.txt
+[11/15/22 15:50:05 D] RecordMetadata: begin record metadata
+[11/15/22 15:50:05 D] RecordMetadata: recording MILSTD1553_F1 metadata
+[11/15/22 15:50:05 D] RecordMetadata: recording ARINC429_F0 metadata
+[11/15/22 15:50:05 D] Recording Time Data
+[11/15/22 15:50:05 I] Removing unused VIDEO_DATA_F0 dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_VIDEO_DATA_F0.parquet
+[11/15/22 15:50:05 I] Removing unused ETHERNET_DATA_F0 dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_ETHERNET_DATA_F0.parquet
+[11/15/22 15:50:05 D] RecordMetadata: complete record metadata
+[11/15/22 15:50:05 I] Duration: 17.028 sec
+[11/21/22 14:54:16 I] tip_parse version: 3fc06c44
+[11/21/22 14:54:16 I] Ch10 file path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/Ch10/652200111111735.ch10
+[11/21/22 14:54:16 I] Output path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed
+[11/21/22 14:54:16 I] Log directory: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed
+[11/21/22 14:54:16 I] Ch10 file size: 183.069660 MB
+[11/21/22 14:54:16 I] AllocateResources: chunk size 200000000 bytes
+[11/21/22 14:54:16 I] AllocateResources: using 1 threads
+[11/21/22 14:54:16 I] AllocateResources: creating 1 workers
+[11/21/22 14:54:16 I] TMATS output path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_COMPUTER_GENERATED_DATA_F1.txt
+[11/21/22 14:54:16 I] Time data output path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_TIME_DATA_F1.parquet
+[11/21/22 14:54:16 I] CreateCh10PacketOutputDirs: Create MILSTD1553_F1 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_MILSTD1553_F1.parquet
+[11/21/22 14:54:16 I] CreateCh10PacketOutputDirs: Create ARINC429_F0 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_ARINC429_F0.parquet
+[11/21/22 14:54:16 I] CreateCh10PacketOutputDirs: Create VIDEO_DATA_F0 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_VIDEO_DATA_F0.parquet
+[11/21/22 14:54:16 I] CreateCh10PacketOutputDirs: Create ETHERNET_DATA_F0 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_ETHERNET_DATA_F0.parquet
+[11/21/22 14:54:18 I] Ch10 hash: e059b7142cd95d8ad28be2002b348e40722938878a5d499f1235f610c4b2f48b
+[11/21/22 14:54:18 I] Ch10 packet configuration:
+[11/21/22 14:54:18 I]  ARINC429_F0:	true
+[11/21/22 14:54:18 I]  ETHERNET_DATA_F0:	true
+[11/21/22 14:54:18 I]  MILSTD1553_F1:	true
+[11/21/22 14:54:18 I]  VIDEO_DATA_F0:	true
+[11/21/22 14:54:18 D] Opening ch10 file path: Ch10/652200111111735.ch10
+[11/21/22 14:54:18 D] Parse: begin parsing with workers
+[11/21/22 14:54:18 D] StartThreads: Starting worker threads
+[11/21/22 14:54:18 D] ActivateInitialThread: All threads NOT ACTIVE (0 active)
+[11/21/22 14:54:18 D] ConfigureWorker 0: start = 0, read size = 200000000
+[11/21/22 14:54:18 D] ConfigureWorker: worker 0 actual read size (183069660) not equal to requested read size (200000000)
+[11/21/22 14:54:18 D] ConfigureWorker: Last worker reached EOF OK
+[11/21/22 14:54:18 D] Parse: end parsing with workers
+[11/21/22 14:54:18 D] StopThreads: Joining all remaining workers
+[11/21/22 14:54:18 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:18 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:18 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:18 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:18 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:18 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:19 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:19 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:19 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:19 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:19 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:20 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:20 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:20 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:20 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:20 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:20 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:20 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:20 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:20 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:20 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:21 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:21 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:21 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:21 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:21 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:22 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:22 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:22 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:22 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:22 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:23 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:23 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:23 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:23 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:23 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:24 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:24 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:24 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:24 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:24 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:25 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:25 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:25 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:25 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:25 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:26 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:26 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:26 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:26 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:26 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:26 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:26 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:26 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:26 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:26 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:27 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:27 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:27 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:27 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:27 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:27 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:27 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:27 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:27 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:27 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:28 D] StopThreads: worker 0 STILL ACTIVE
+[11/21/22 14:54:28 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:28 D] StopThreads: worker 0 INACTIVE/COMPLETE -- joining now
+[11/21/22 14:54:28 D] StopThreads: worker 0 joined
+[11/21/22 14:54:28 D] StopThreads: waiting for workers to complete
+[11/21/22 14:54:28 D] StopThreads: all workers joined
+[11/21/22 14:54:28 I] Parsed packet types:
+[11/21/22 14:54:28 I]  - COMPUTER_GENERATED_DATA_F1
+[11/21/22 14:54:28 I]  - TIME_DATA_F1
+[11/21/22 14:54:28 I]  - MILSTD1553_F1
+[11/21/22 14:54:28 I]  - ARINC429_F0
+[11/21/22 14:54:28 I] ProcessTMATS: writing TMATS to /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_COMPUTER_GENERATED_DATA_F1.txt
+[11/21/22 14:54:28 D] RecordMetadata: begin record metadata
+[11/21/22 14:54:28 D] RecordMetadata: recording MILSTD1553_F1 metadata
+[11/21/22 14:54:28 D] RecordMetadata: recording ARINC429_F0 metadata
+[11/21/22 14:54:28 D] Recording Time Data
+[11/21/22 14:54:28 I] Removing unused VIDEO_DATA_F0 dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_VIDEO_DATA_F0.parquet
+[11/21/22 14:54:28 I] Removing unused ETHERNET_DATA_F0 dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/652200111111735_ETHERNET_DATA_F0.parquet
+[11/21/22 14:54:28 D] RecordMetadata: complete record metadata
+[11/21/22 14:54:28 I] Duration: 12.503 sec

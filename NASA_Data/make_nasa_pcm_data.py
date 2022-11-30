@@ -33,19 +33,23 @@ if __name__=='__main__':
     dataset_dir    = None
     data_file_list = None
  
+
+ ######################## NATHAN COMMENTED THIS OUT ###########################
     # If no command line parameters then use these
-    if len(sys.argv) < 2:
-        dataset_dir = "Tail_652_1/"
-        data_file_list = ("652200101120916.mat",)   # File OK
+    # if len(sys.argv) < 2:
+    #     dataset_dir = "Tail_652_1/"
+    #     data_file_list = ("652200101120916.mat",)   # File OK
 #        dataset_dir = "Tail_652_2/"
 #        data_file_list = ("652200108031352.mat",)   # File Broken
 
+
     # Get the working directory name
-    if len(sys.argv) >= 2:
-        dataset_dir = sys.argv[1] + "/"
+    # if len(sys.argv) >= 2:
+    #     dataset_dir = sys.argv[1] + "/"
+####################### TO HERE ###############################################
         
-    matlab_data_dir = root_data_dir + "Matlab/" + dataset_dir
-    csv_data_dir    = root_data_dir + "CSV/"    + dataset_dir
+    matlab_data_dir = root_data_dir + "Matlab/" 
+    csv_data_dir    = root_data_dir + "CSV/" 
     
     # Get the file names list
     if len(sys.argv) >= 3:

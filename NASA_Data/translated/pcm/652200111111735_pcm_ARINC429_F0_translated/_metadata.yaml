@@ -1,0 +1,35 @@
+---
+type: translated_ARINC429_F0
+uid: 760fa6300e39536027773f32e674ee08b14034d722d8ec6c5925b88c97aa2b1e
+provenance:
+  time: 2022-11-30 13:46:30
+  version: 3fc06c44
+  resource:
+    - type: DTS_ARINC429_F0
+      path: ICD_Files/TIP/DTS429_Synth_Nasa.yaml
+      uid: 7e501133c51a775ea8b2e5ef8421a7f18101f54cd2f19aab49bb1060f7d1269e
+    - type: parsed_ARINC429_F0
+      path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_ARINC429_F0.parquet
+      uid: f96bda53664572af8ae9a43e6d13b21c8a7a202ed17d67e7597c46faefc324f3
+    - type: CH10
+      path: Ch10/652200111111735_pcm.ch10
+      uid: 0e6f6c1ef48bb10ee08789fb640da995f312efb5b37d1ac7447e0901797b66d4
+config:
+  translate_thread_count: 1
+  use_tmats_busmap: false
+  tmats_busname_corrections:
+    {}
+  prompt_user: false
+  vote_threshold: 1
+  vote_method_checks_tmats: false
+  bus_name_exclusions: []
+  stop_after_bus_map: false
+  select_specific_messages: []
+  exit_after_table_creation: false
+  auto_sys_limits: true
+runtime:
+  translated_messages: [ENGINE_OIL_PRESSURE_40, ENGINE_OIL_PRESSURE_41, Engine_Fan_RPM_N1_ACTUAL_40, Engine_Fan_RPM_N1_ACTUAL_41, Engine_Fan_RPM_N1_DEMAND_40, Engine_Fan_RPM_N1_DEMAND_41, Engine_Oil_Temperature_40, Engine_Oil_Temperature_41, Engine_Turbine_RPM_40, Engine_Turbine_RPM_41, Exhaust_Gas_Temperature_40, Exhaust_Gas_Temperature_41, Fuel_Flow_40, Fuel_Flow_41]
+  translated_chanid_busnum_labels_mapping:
+    40: {0: [41, 42, 43, 44, 45, 46, 47]}
+    41: {0: [41, 42, 43, 44, 45, 46, 47]}
+...

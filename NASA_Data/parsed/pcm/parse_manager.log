@@ -1,0 +1,157 @@
+[11/30/22 06:34:12 I] tip_parse version: 3fc06c44
+[11/30/22 06:34:12 I] Ch10 file path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/Ch10/652200111111735_pcm.ch10
+[11/30/22 06:34:12 I] Output path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm
+[11/30/22 06:34:12 I] Log directory: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm
+[11/30/22 06:34:12 I] Ch10 file size: 183.072296 MB
+[11/30/22 06:34:12 I] AllocateResources: chunk size 200000000 bytes
+[11/30/22 06:34:12 I] AllocateResources: using 1 threads
+[11/30/22 06:34:12 I] AllocateResources: creating 1 workers
+[11/30/22 06:34:12 I] TMATS output path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_COMPUTER_GENERATED_DATA_F1.txt
+[11/30/22 06:34:12 I] Time data output path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_TIME_DATA_F1.parquet
+[11/30/22 06:34:12 I] CreateCh10PacketOutputDirs: Create MILSTD1553_F1 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_MILSTD1553_F1.parquet
+[11/30/22 06:34:12 I] CreateCh10PacketOutputDirs: Create ARINC429_F0 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_ARINC429_F0.parquet
+[11/30/22 06:34:12 I] CreateCh10PacketOutputDirs: Create VIDEO_DATA_F0 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_VIDEO_DATA_F0.parquet
+[11/30/22 06:34:12 I] CreateCh10PacketOutputDirs: Create ETHERNET_DATA_F0 output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_ETHERNET_DATA_F0.parquet
+[11/30/22 06:34:14 I] Ch10 hash: 0e6f6c1ef48bb10ee08789fb640da995f312efb5b37d1ac7447e0901797b66d4
+[11/30/22 06:34:14 I] Ch10 packet configuration:
+[11/30/22 06:34:14 I]  ARINC429_F0:	true
+[11/30/22 06:34:14 I]  ETHERNET_DATA_F0:	true
+[11/30/22 06:34:14 I]  MILSTD1553_F1:	true
+[11/30/22 06:34:14 I]  VIDEO_DATA_F0:	true
+[11/30/22 06:34:14 D] Opening ch10 file path: Ch10/652200111111735_pcm.ch10
+[11/30/22 06:34:14 D] Parse: begin parsing with workers
+[11/30/22 06:34:14 D] StartThreads: Starting worker threads
+[11/30/22 06:34:14 D] ActivateInitialThread: All threads NOT ACTIVE (0 active)
+[11/30/22 06:34:14 D] ConfigureWorker 0: start = 0, read size = 200000000
+[11/30/22 06:34:14 D] ConfigureWorker: worker 0 actual read size (183072296) not equal to requested read size (200000000)
+[11/30/22 06:34:14 D] ConfigureWorker: Last worker reached EOF OK
+[11/30/22 06:34:15 D] Parse: end parsing with workers
+[11/30/22 06:34:15 D] StopThreads: Joining all remaining workers
+[11/30/22 06:34:15 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:15 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:15 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:15 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:15 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:15 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:15 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:15 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:15 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:15 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:16 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:16 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:16 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:16 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:16 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:16 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:16 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:16 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:16 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:16 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:17 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:17 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:17 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:17 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:17 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:17 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:17 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:17 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:17 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:17 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:18 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:18 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:18 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:18 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:18 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:18 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:18 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:18 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:18 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:18 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:19 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:19 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:19 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:19 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:19 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:19 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:20 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:20 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:20 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:20 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:20 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:20 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:20 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:20 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:21 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:21 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:21 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:21 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:21 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:21 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:22 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:22 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:22 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:22 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:22 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:22 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:23 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:23 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:23 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:23 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:23 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:23 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:24 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:24 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:24 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:24 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:24 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:24 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:25 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:25 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:25 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:25 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:25 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:25 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:26 D] StopThreads: worker 0 STILL ACTIVE
+[11/30/22 06:34:26 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:26 D] StopThreads: worker 0 INACTIVE/COMPLETE -- joining now
+[11/30/22 06:34:26 D] StopThreads: worker 0 joined
+[11/30/22 06:34:26 D] StopThreads: waiting for workers to complete
+[11/30/22 06:34:26 D] StopThreads: all workers joined
+[11/30/22 06:34:26 I] Parsed packet types:
+[11/30/22 06:34:26 I]  - COMPUTER_GENERATED_DATA_F1
+[11/30/22 06:34:26 I]  - TIME_DATA_F1
+[11/30/22 06:34:26 I]  - MILSTD1553_F1
+[11/30/22 06:34:26 I]  - ARINC429_F0
+[11/30/22 06:34:26 I] ProcessTMATS: writing TMATS to /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_COMPUTER_GENERATED_DATA_F1.txt
+[11/30/22 06:34:26 D] RecordMetadata: begin record metadata
+[11/30/22 06:34:26 D] RecordMetadata: recording MILSTD1553_F1 metadata
+[11/30/22 06:34:26 D] RecordMetadata: recording ARINC429_F0 metadata
+[11/30/22 06:34:26 D] Recording Time Data
+[11/30/22 06:34:26 I] Removing unused VIDEO_DATA_F0 dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_VIDEO_DATA_F0.parquet
+[11/30/22 06:34:26 I] Removing unused ETHERNET_DATA_F0 dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/pcm/652200111111735_pcm_ETHERNET_DATA_F0.parquet
+[11/30/22 06:34:26 D] RecordMetadata: complete record metadata
+[11/30/22 06:34:26 I] Duration: 13.707 sec

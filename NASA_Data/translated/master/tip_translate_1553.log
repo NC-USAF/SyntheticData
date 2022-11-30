@@ -1,0 +1,248 @@
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:96] tip_translate_1553 version: 3fc06c44
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:97] Input: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/master/652200111111735_MILSTD1553_F1.parquet
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:98] Output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/translated/master
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:99] Log dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/translated/master
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:100] DTS1553 path: ICD_Files/TIP/DTS1553_Synth_Nasa.yaml
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:101] DTS1553 hash: 8a64cd5de06fc0a349a5f90a64848338dba7c4212141be09f3018d541d3eb9c9
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:103] Thread count: 1
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/dts1553.cpp:15] DTS1553: Handling yaml file data
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/icd_data.cpp:718] Ingested 1 ICD messages
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/icd_data.cpp:719] Ingested 21 ICD elements
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:272] DTS1553 ingest and message lookup table synthesis duration: 0 sec
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:283] Starting Bus Map
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/bus_map.cpp:50] ----Channel IDs to Map----
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/bus_map.cpp:53] 30
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/bus_map.cpp:60] 
+  Original TMATS Map
+ (chID) | (Bus) 
+-------------------------------
+ 30:	1553-Nav
+-------------------------------
+
+
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/bus_map.cpp:78] 
+  TMATS Map After Corrections
+ (chID) | (Bus) 
+-------------------------------
+ 30:	1553-Nav
+-------------------------------
+
+
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/bus_map.cpp:561] ---Channel ID votes---
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/bus_map.cpp:567] Channel ID 30:
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/bus_map.cpp:573] 1553InChan30=	1
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/dts_1553/src/bus_map.cpp:148] 
+  Final Bus Map
+ (chID) | (Bus) | (Source) 
+-------------------------------
+ 30	1553InChan30	Vote Method
+
+--All Channel IDs Mapped--
+-------------------------------
+
+
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:293] Bus Map Duration: 0 sec
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:434] Requested file descriptor limit: 11
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:134] Translated data output dir: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/translated/master/652200111111735_MILSTD1553_F1_translated
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:460] Files to be read in for translation:
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:463] /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/master/652200111111735_MILSTD1553_F1.parquet/000.parquet
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular.cpp:152] Input files allotted to threads
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular.cpp:59] Thread count adjusted: 1
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular.cpp:185] TranslationManager objects created
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular.cpp:194] Thread 0 started
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular.cpp:197] Threads started
+[11/30/22 06:38:04 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translation_manager.cpp:27] Thread 0 working on input file: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/parsed/master/652200111111735_MILSTD1553_F1.parquet/000.parquet
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:132] 00 Output file path: /home/nathan/shared/SyntheticData_EDDGE/NASA_Data/translated/master/652200111111735_MILSTD1553_F1_translated/NAV.parquet/00.parquet
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_context_1553.cpp:69] 00 Creating table with index 0
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:49] 00 Table "NAV": rowgroupsize(10000):
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "time": schema(int64), pyldwords(01), offset(255), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-03": schema(double), pyldwords(02), offset(02), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-05": schema(double), pyldwords(02), offset(04), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-07": schema(double), pyldwords(02), offset(06), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-09": schema(float), pyldwords(01), offset(08), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-10": schema(float), pyldwords(01), offset(09), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-11": schema(float), pyldwords(01), offset(10), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-12": schema(float), pyldwords(01), offset(11), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-13": schema(float), pyldwords(01), offset(12), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-14": schema(float), pyldwords(01), offset(13), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-15": schema(float), pyldwords(01), offset(14), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-16": schema(float), pyldwords(01), offset(15), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-21": schema(double), pyldwords(02), offset(20), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-23": schema(double), pyldwords(02), offset(22), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-25": schema(float), pyldwords(01), offset(24), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-0110": schema(bool), pyldwords(01), offset(00), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-0111": schema(bool), pyldwords(01), offset(00), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-0112": schema(bool), pyldwords(01), offset(00), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-0113": schema(bool), pyldwords(01), offset(00), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-0114": schema(bool), pyldwords(01), offset(00), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-0115": schema(bool), pyldwords(01), offset(00), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_column_base.cpp:59] 00 Column "NAV-0116": schema(bool), pyldwords(01), offset(00), pyldwordsz(2)
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:04 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 320000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 10000 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 10000 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:83] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "time" with 8697 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "data" with 278304 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "channelid" with 8697 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txrtaddr" with 8697 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxrtaddr" with 8697 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "txsubaddr" with 8697 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/include/translate_tabular_parquet.h:211] Filled column "rxsubaddr" with 8697 rows from current row group
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:123] 00 Read 8697 parsed data rows
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular_parquet.cpp:100] 00 Closing output file for table NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translatable_table_base.cpp:214] 00 Translating columns of table: NAV
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:939] (00) NAV, 1 row groups
+[11/30/22 06:38:05 D] [/home/nathan/il2_projects/tip/cpp/parquet_context/src/parquet_context.cpp:945] (00) NAV, WriteColumns(count = 8697, offset = 0)
+[11/30/22 06:38:05 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular.cpp:214] Joined thread 0
+[11/30/22 06:38:05 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular.cpp:222] Joined threads
+[11/30/22 06:38:05 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular/src/translate_tabular.cpp:82] TranslationManager associated with thread 0 status: SUCCESS
+[11/30/22 06:38:05 I] [/home/nathan/il2_projects/tip/cpp/translate_tabular_1553/src/translate_tabular_1553_main.cpp:150] Duration: 1.271 sec
