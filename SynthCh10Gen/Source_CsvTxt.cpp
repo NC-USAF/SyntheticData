@@ -5,6 +5,10 @@
 #include <cstdio>
 #include <string>
 
+#ifdef LINUX_BUILD
+#include <cstring>
+#endif
+
 #include "Source_Nav.h"
 #include "Source_CsvTxt.h"
 
@@ -249,7 +253,11 @@ bool ClSource_CsvTxt::ConvertTime(std::string sTime, double *fDecodedTime)
     suNasaTime.tm_sec   = (int)fSecond;
 
     // Convert to a time_t
+    #ifdef LINUX_BUILD
+    lNasaTime = mktime(&suNasaTime);
+    #else
     lNasaTime = _mkgmtime(&suNasaTime);
+    #endif
 
     // Make a floating point representation
     *fDecodedTime = lNasaTime + (fSecond - suNasaTime.tm_sec);

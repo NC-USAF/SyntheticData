@@ -8,6 +8,10 @@
 #include <sstream>      // std::stringstream
 #include <math.h>       // pow()
 
+#ifdef LINUX_BUILD
+#include <cstring>
+#endif
+
 #include "Common.h"
 #include "Ch10Format_A429_AR100.h"
 

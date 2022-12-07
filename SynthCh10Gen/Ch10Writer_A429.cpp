@@ -12,6 +12,10 @@
 
 #include "Ch10Writer_A429.h"
 
+#ifdef LINUX_BUILD
+#include <cstring>
+#endif
+
 using namespace Irig106;
 
 

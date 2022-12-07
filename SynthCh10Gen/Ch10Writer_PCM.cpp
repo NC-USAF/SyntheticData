@@ -13,6 +13,10 @@
 #include "Ch10Writer.h"
 #include "Ch10Writer_PCM.h"
 
+#ifdef LINUX_BUILD
+#include <cstring>
+#endif
+
 
 // ----------------------------------------------------------------------------
 // Constructor / Destructor
